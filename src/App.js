@@ -1,24 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import Attribution from './components/Attribution';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <>
+  <body className='bg-gray-100 h-full'>
+  <div className='todo-app'>
+    <div className='todo-container'>
+      <div className='todo-header'>
+        <h2>Todo</h2>
+        <button></button>
+      </div>
+
+      <div className='todo-main'>
+        <div className='todo-create'>
+          
+        </div>
+      </div>
     </div>
+  </div>
+
+  Add dynamic number items left
+
+  All
+  Active 
+  Completed
+
+  Clear Completed
+
+  Drag and drop to reorder list
+  <Attribution/>
+  </body>
+</>
   );
 }
 
