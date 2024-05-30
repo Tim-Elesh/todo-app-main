@@ -14,19 +14,31 @@ function App() {
 
       <div className='todo-main'>
         <div className='todo-create'>
-          
+          <label>
+            <input type='text' placeholder='Create a new todo...'></input>
+          </label>
+        </div>
+
+        <div className='todo-tasks'>
+            <ul>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+            </ul>
+
+            <div className='todo-buttons'>
+                <p className='counter'>3 items left</p>
+                <div className='todo-sort'>
+                    <button>All</button>
+                    <button>Active</button>
+                    <button>Completed</button>
+                </div>
+                <button>Clear Completed</button>
+            </div>
         </div>
       </div>
     </div>
   </div>
-
-  Add dynamic number items left
-
-  All
-  Active 
-  Completed
-
-  Clear Completed
 
   Drag and drop to reorder list
   <Attribution/>
