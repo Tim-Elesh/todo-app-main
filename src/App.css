@@ -6,6 +6,11 @@
     font-family: 'Josefin Sans';
 }
 
+body{
+    height: 100vh;
+    background-color: hsl(0, 0%, 98%);
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -18,4 +23,20 @@
 
 .attribution a:hover{
     color: hsl(228, 83%, 42%);
+}
+
+.todo-app{
+    height: 70vh;
+}
+
+.todo-container{
+    display: flex;
+}
+
+.todo-inscription{
+    letter-spacing: 7px;
+}
+
+.todo-create input{
+    
 }

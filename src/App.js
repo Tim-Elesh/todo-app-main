@@ -3,16 +3,14 @@ import Attribution from './components/Attribution';
 
 function App() {
   return (
-  <>
-  <body className='bg-gray-100 h-full'>
-  <div className='todo-app'>
-    <div className='todo-container'>
-      <div className='todo-header'>
-        <h2>Todo</h2>
-        <button></button>
+  <div className='todo-app bg-white m-auto w-1/3 mt-16'>
+    <div className='todo-container flex-direction: column; justify-center'>
+      <div className='todo-header flex '>
+        <h2 className='todo-inscription'>TODO</h2>
+        <button><img></img></button>
       </div>
 
-      <div className='todo-main'>
+      <div className='todo-main mt-10'>
         <div className='todo-create'>
           <label>
             <input type='text' placeholder='Create a new todo...'></input>
@@ -35,15 +33,12 @@ function App() {
                 </div>
                 <button>Clear Completed</button>
             </div>
+                <p>Drag and drop to reorder list</p>
         </div>
       </div>
     </div>
+    <Attribution/>
   </div>
-
-  Drag and drop to reorder list
-  <Attribution/>
-  </body>
-</>
   );
 }
 
