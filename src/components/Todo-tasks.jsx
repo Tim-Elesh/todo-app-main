@@ -1,11 +1,13 @@
+import Clue from './Todo-clue'
+import Buttons from './Todo-buttons'
+import TaskList from './Todo-task-list'
+
 function Tasks(){
     return(
         <div className='todo-tasks'>
-            <ul>
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
-            </ul>
+            <TaskList/>
+            <Buttons/>
+            <Clue/>
         </div>
     )
 }
