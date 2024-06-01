@@ -5,8 +5,8 @@ import Main from './components/Todo-main';
 
 function App() {
   return (
-  <div className='todo-app m-auto w-1/3 mt-16'>
-    <div className='todo-container flex-direction: column; justify-center'>
+  <div className='todo-app mx-auto w-1/3'>
+    <div className='todo-container flex-col mt-24'>
       <Header/>
       <Main/>
     </div>

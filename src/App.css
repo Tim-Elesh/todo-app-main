@@ -9,11 +9,41 @@
 body{
     height: 100vh;
     background-color: hsl(0, 0%, 98%);
+    background-image: url(./images/bg-desktop-light.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-x: hidden;
 }
 
+/* Custom scroll */
+
+.custom-scroll::-webkit-scrollbar {
+    width: 2px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+    background: hsl(0, 0%, 98%);
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+    background: hsl(0, 0%, 98%);
+    border-radius: 8px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+    background: hsl(0, 0%, 98%);
+}
+
+.custom-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(235, 19%, 35%) hsl(0, 0%, 98%);
+}
+
+/* Custom scroll end */
+
 .attribution { 
-    font-size: 11px; 
-    text-align: center; 
+    font-size: 16px; 
+    text-align: center;
 }
 
 .attribution a {
@@ -22,15 +52,21 @@ body{
 }
 
 .attribution a:hover{
-    color: hsl(228, 83%, 42%);
+    color: hsl(308, 83%, 42%);
 }
 
 .todo-app{
-    height: 70vh;
+    height: 80vh;
 }
 
 .todo-container{
+    height: 100%;
     display: flex;
+}
+
+.todo-header{
+    display: flex;
+    width: 100%;
 }
 
 .todo-inscription{
@@ -39,7 +75,5 @@ body{
 
 .todo-create input{
     padding: 10px 16px;
-    width: 500px;
+    width: 100%;
 }
-
-
