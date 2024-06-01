@@ -38,5 +38,8 @@ body{
 }
 
 .todo-create input{
-    
+    padding: 10px 16px;
+    width: 500px;
 }
+
+

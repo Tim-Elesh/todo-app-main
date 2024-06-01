@@ -1,9 +1,9 @@
 function TaskList(){
     return(
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
+        <ul className="todo-task-list text-xl">
+            <li className="list-component my-5 bg-white p-3 py-4">Lorem, ipsum dolor.</li>
+            <li className="list-component my-5 bg-white p-3 py-4">Lorem ipsum dolor sit amet.</li>
+            <li className="list-component my-5 bg-white p-3 py-4">Lorem ipsum dolor sit.</li>
         </ul>
     )
 }

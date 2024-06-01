@@ -1,41 +1,14 @@
 import './App.css';
 import Header from './components/Todo-header';
 import Attribution from './components/Attribution';
+import Main from './components/Todo-main';
 
 function App() {
   return (
-  <div className='todo-app bg-white m-auto w-1/3 mt-16'>
+  <div className='todo-app m-auto w-1/3 mt-16'>
     <div className='todo-container flex-direction: column; justify-center'>
       <Header/>
-
-      <div className='todo-main mt-10'>
-        <div className='todo-create'>
-          <label>
-            <input type='text' placeholder='Create a new todo...'></input>
-          </label>
-        </div>
-
-        <div className='todo-tasks'>
-            <ul>
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
-            </ul>
-
-            <div className='todo-buttons'>
-                <p className='counter'>3 items left</p>
-                <div className='todo-sort'>
-                    <button>All</button>
-                    <button>Active</button>
-                    <button>Completed</button>
-                </div>
-                <button>Clear Completed</button>
-            </div>
-            <div className='todo-clue'>
-              <p>Drag and drop to reorder list</p>
-            </div>
-        </div>
-      </div>
+      <Main/>
     </div>
     <Attribution/>
   </div>
