@@ -9,7 +9,7 @@
 body{
     height: 100vh;
     background-color: hsl(0, 0%, 98%);
-    background-image: url(./images/bg-desktop-light.jpg);
+    background-image: url(./components/images/bg-desktop-light.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     overflow-x: hidden;
@@ -70,10 +70,18 @@ body{
 }
 
 .todo-inscription{
-    letter-spacing: 7px;
+    letter-spacing: 9px;
 }
 
 .todo-create input{
     padding: 10px 16px;
     width: 100%;
+}
+
+.todo-sort button{
+    color: hsl(236, 9%, 61%);
+}
+
+.todo-sort button:focus{
+    color: (235, 19%, 35%);
 }

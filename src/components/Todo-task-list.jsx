@@ -6,6 +6,7 @@ function TaskList(){
             <li className="list-component my-1 bg-white p-3 py-4">Lorem ipsum dolor sit.</li>
             <li className="list-component my-1 bg-white p-3 py-4">Lorem ipsum dolor sit.</li>
             <li className="list-component my-1 bg-white p-3 py-4">Lorem, ipsum dolor.</li>
+            <li className="list-component my-1 bg-white p-3 py-4">Lorem ipsum dolor sit amet.</li>
         </ul>
     )
 }

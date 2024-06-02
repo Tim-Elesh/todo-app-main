@@ -1,6 +1,6 @@
 function Create(){
     return(
-        <div className='todo-create'>
+        <div className='todo-create text-xl'>
           <label>
             <input type='text' placeholder='Create a new todo...'></input>
           </label>
