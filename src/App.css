@@ -73,9 +73,9 @@ body{
     letter-spacing: 9px;
 }
 
-.todo-create input{
+.todo-create input[type="text"]{
     padding: 10px 16px;
-    width: 100%;
+    width: 90%;
 }
 
 .list-component{
@@ -85,7 +85,6 @@ body{
 .list-component p{
     padding-left: 16px;
 }
-
 .todo-sort button{
     color: hsl(236, 9%, 61%);
 }
