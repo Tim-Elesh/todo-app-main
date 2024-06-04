@@ -1,7 +1,7 @@
 function TaskList(){
     return(
         <ul className="todo-task-list text-xl mt-7">
-            <li className="list-component my-px bg-white p-3 py-5">
+            <li className="list-component my-px rounded-t bg-white p-3 py-5">
                 <input type="checkbox" defaultChecked/>
                 <p>lorem, ipsum dolor.</p>
             </li>

@@ -10,7 +10,7 @@ function Header(){
         } else {
             setBackgroundImage('url(./components/images/bg-desktop-light.jpg)');
         }
-    }
+    } // не работает потому что хук локален
 
     return(
         <div className='todo-header justify-between'>

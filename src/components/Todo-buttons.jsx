@@ -3,10 +3,10 @@ import Sort from "./Todo-sort";
 
 function Buttons(){
     return(
-        <div className='todo-buttons flex justify-between text-gray-400 bg-white p-5'>
+        <div className='todo-buttons flex justify-between text-gray-400 rounded-b bg-white p-5'>
             <Counter/>
             <Sort/>
-            <button>Clear Completed</button>
+            <button className="focus: text-blue-600">Clear Completed</button>
         </div>
     )
 }
