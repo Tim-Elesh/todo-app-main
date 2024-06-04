@@ -11,7 +11,7 @@ body{
     background-color: hsl(0, 0%, 98%);
     background-image: url(./components/images/bg-desktop-light.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 30%;
     overflow-x: hidden;
 }
 
@@ -74,8 +74,12 @@ body{
 }
 
 .todo-create input[type="text"]{
-    padding: 10px 16px;
+    padding: 10px 18px 10px 0;
     width: 90%;
+}
+
+.todo-create input[type="text"]:focus{
+    outline: none;
 }
 
 .list-component{
